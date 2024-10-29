@@ -20,5 +20,12 @@
     "src/**/*.test.jsx",
     "jest.config.ts"
   ],
-  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"]
+  "include": [
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "../../libs/peerbit-coordinator/src/lib/PeerbitCoordinator.ts",
+    "../../libs/coordinator/src/lib/types.ts"
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "name": "peerbit-coordinator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/peerbit-coordinator/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project peerbit-coordinator --web",
+  "targets": {}
+}

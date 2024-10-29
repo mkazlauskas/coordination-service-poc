@@ -1,0 +1,24 @@
+{
+  "name": "peerbit-coordinator",
+  "version": "0.0.1",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@cardano-sdk/core": "0.41.0",
+    "@cardano-sdk/crypto": "0.1.30",
+    "@cardano-sdk/key-management": "0.24.6",
+    "@cardano-sdk/util": "0.15.5",
+    "@dao-xyz/borsh": "^5.2.3",
+    "@peerbit/crypto": "^2.3.2",
+    "@peerbit/document": "^7.1.6",
+    "@peerbit/program": "^5.0.4",
+    "peerbit": "^4.0.19",
+    "rxjs": "^7.8.1"
+  }
+}

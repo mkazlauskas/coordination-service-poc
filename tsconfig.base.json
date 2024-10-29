@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "coordinator": ["libs/coordinator/src/index.ts"],
+      "peerbit-coordinator": ["libs/peerbit-coordinator/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

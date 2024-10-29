@@ -1,12 +1,15 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { useState } from 'react';
+import LoadPersonal1854Wallet, {
+  PersonalWallet,
+} from './load-personal-1854-wallet';
+import SharedWallets from './shared-wallets';
 
 export function App() {
+  const [wallet, setWallet] = useState<PersonalWallet | undefined>();
   return (
     <div>
-      <NxWelcome title="coordination-service-poc" />
+      <LoadPersonal1854Wallet onCreated={setWallet} />
+      {wallet && <SharedWallets personalWallet={wallet} />}
     </div>
   );
 }
